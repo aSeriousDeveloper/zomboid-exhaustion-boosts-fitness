@@ -3,3 +3,4 @@ poster=poster.png
 icon=icon.png
 id=exhaustion-fitness-robboinnit
 description=Buffs fitness and strength gains while icnreasingly exerted, but cancels out when in pain.
+url=https://github.com/aSeriousDeveloper/zomboid-exhaustion-boosts-fitness
