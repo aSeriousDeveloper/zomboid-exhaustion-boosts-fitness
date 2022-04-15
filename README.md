@@ -8,7 +8,7 @@ Endurance and Pain values are based on the in-game Moodle severity, with 0 being
 
 Formula for calculating multiplier is:
 
-![math.floor( ( ( enduranceLevel + 1 ) ^ 3 ) / ( ( painLevel ^ 3 ) + 1 ) )](https://latex.codecogs.com/svg.image?%5Clfloor%5Cfrac%7B%28e&plus;1%29%5E3%7D%7Bp%5E3&plus;1%7D%5Crfloor)
+![math.floor( ( ( enduranceLevel + 1 ) ^ 3 ) / ( ( painLevel ^ 3 ) + 1 ) )](https://latex.codecogs.com/svg.image?%5Clfloor%5Cfrac%7B%28e&plus;1%29%5E2%7D%7Bp%5E2&plus;1%7D%5Crfloor)
 
 Table below lays out values:
 
@@ -19,25 +19,25 @@ Table below lays out values:
 |           | 2    | 1          |
 |           | 3    | 1          |
 |           | 4    | 1          |
-| 1         | 0    | 8          |
+| 1         | 0    | 4          |
+|           | 1    | 2          |
+|           | 2    | 1          |
+|           | 3    | 1          |
+|           | 4    | 1          |
+| 2         | 0    | 9          |
 |           | 1    | 4          |
 |           | 2    | 1          |
 |           | 3    | 1          |
 |           | 4    | 1          |
-| 2         | 0    | 27         |
-|           | 1    | 13         |
+| 3         | 0    | 16         |
+|           | 1    | 8          |
 |           | 2    | 3          |
 |           | 3    | 1          |
 |           | 4    | 1          |
-| 3         | 0    | 64         |
-|           | 1    | 32         |
-|           | 2    | 7          |
+| 4         | 0    | 25         |
+|           | 1    | 12         |
+|           | 2    | 5          |
 |           | 3    | 2          |
-|           | 4    | 1          |
-| 4         | 0    | 125        |
-|           | 1    | 62         |
-|           | 2    | 13         |
-|           | 3    | 4          |
 |           | 4    | 1          |
 
 
