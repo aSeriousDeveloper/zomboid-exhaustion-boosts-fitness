@@ -1,6 +1,15 @@
 version=1
-id=
+id=2794699088
 title=Exhaustion Boosts Fitness
 description=Buffs fitness and strength gains while icnreasingly exerted, but cancels out when in pain.
-tags=
+description=
+description=Basic formula is endurance^2 / pain^2 .
+description=There's a more specific version of the function as well as a values table on the GitHub page.
+description=
+description=Github url: https://github.com/aSeriousDeveloper/zomboid-exhaustion-boosts-fitness
+description=
+description=If you can open any bugs or issues there, but mentioning them here is also fine.
+description=
+description=Other feedback (positive) appreciated.
+tags=Build 41;Balance;Realistic
 visibility=public
