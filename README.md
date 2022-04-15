@@ -7,7 +7,8 @@ Endurance and Pain values are based on the in-game Moodle severity, with 0 being
 
 
 ## Formulae
-Formula for calculating multiplier is: $\lfloor \frac{(e+1)^3}{p³+1} \rfloor$
+Formula for calculating multiplier is: $\lfloor \frac{(e+1)^3}{p³+1} \rfloor$ .
+
 Table below lays out values.
 
 | endurance | pain | multiplier |
