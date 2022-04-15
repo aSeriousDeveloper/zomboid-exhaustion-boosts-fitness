@@ -20,6 +20,6 @@ local function playerUpdateMultipliers(player)
 end
 
 Events.OnGameBoot.Add(function()
-	Events.EveryOneMinute.Add(playerUpdateMultipliers)
+	Events.OnPlayerUpdate.Add(playerUpdateMultipliers)
 end)
     
