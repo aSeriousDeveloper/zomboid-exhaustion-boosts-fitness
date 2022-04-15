@@ -1,0 +1,6 @@
+version=1
+id=
+title=Exhaustion Boosts Fitness
+description=Buffs fitness and strength gains while icnreasingly exerted, but cancels out when in pain.
+tags=
+visibility=public
