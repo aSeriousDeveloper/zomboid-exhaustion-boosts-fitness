@@ -1,6 +1,3 @@
-
-
-
 local function playerUpdateMultipliers(player)
 
     if(player:getStats():getEndurancewarn() ~= 0) then
