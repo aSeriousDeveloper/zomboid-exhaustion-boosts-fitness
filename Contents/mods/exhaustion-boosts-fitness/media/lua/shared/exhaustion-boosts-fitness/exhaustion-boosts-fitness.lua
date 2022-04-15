@@ -1,4 +1,4 @@
-local function playerUpdateMultipliers(player)
+Events.OnPlayerUpdate.Add(function(player)
 
     if(player:getStats():getEndurancewarn() ~= 0) then
         player:getStats():setEndurancewarn(0)
@@ -17,9 +17,7 @@ local function playerUpdateMultipliers(player)
 
 	player:getXp():addXpMultiplier(fitnessPerk, xpMultiplier, 0, 10)
     player:getXp():addXpMultiplier(strengthPerk, xpMultiplier, 0, 10)
-end
-
-Events.OnGameBoot.Add(function()
-	Events.OnPlayerUpdate.Add(playerUpdateMultipliers)
 end)
+
+
     
