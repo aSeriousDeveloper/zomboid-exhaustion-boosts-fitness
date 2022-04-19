@@ -1,0 +1,6 @@
+name=Exhaustion Boosts Fitness - Reduced
+poster=poster.png
+icon=icon.png
+id=exhaustion-fitness-reduced-robboinnit
+description=Buffs fitness and strength gains while increasingly exerted, but cancels out when in pain. This one uses a formula that reduces the buff. Do not activate this at the same time as the other version.
+url=https://github.com/aSeriousDeveloper/zomboid-exhaustion-boosts-fitness
