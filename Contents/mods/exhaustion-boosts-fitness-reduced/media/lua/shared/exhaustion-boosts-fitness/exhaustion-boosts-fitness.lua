@@ -7,7 +7,7 @@ Events.OnPlayerUpdate.Add(function(player)
     local enduranceLevel = player:getMoodles():getMoodleLevel(MoodleType.Endurance)
     local painLevel = player:getMoodles():getMoodleLevel(MoodleType.Pain)
 
-    local xpMultiplier = math.floor( ( enduranceLevel * 2  ) / ( painLevel * 2 ) )
+    local xpMultiplier = math.floor( ( ( ( enduranceLevel * 2 ) + 1 ) / ( painLevel + 1 ) - 1  ) )
     local fitnessPerk = Perks.Fitness
     local strengthPerk = Perks.Strength
 
